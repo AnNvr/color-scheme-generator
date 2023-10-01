@@ -1,0 +1,52 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  width: 550px;
+  height: 550px;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #2B283A;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+header > * {
+  background-color: transparent;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+header > input {
+  width: 51px;
+  height: 35px;
+}
+
+header > select, button {
+  padding: 0.5em; 
+}
+
+header > button,
+.hex-code {
+  font-size: 0.75rem;
+}
+
+.color-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.color {
+  width: 100%;
+  height: 420px;
+}
+
+.hex-code {
+  text-align: center;
+  padding: 2em 0;
+}
